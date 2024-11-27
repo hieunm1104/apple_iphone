@@ -3,7 +3,7 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
 gsap.registerPlugin(ScrollTrigger);
 import { useEffect, useRef, useState } from "react";
-
+ 
 import { hightlightsSlides } from "../constants";
 import { pauseImg, playImg, replayImg } from "../utils";
 
@@ -188,7 +188,7 @@ const VideoCarousel = () => {
               <div className="absolute top-12 left-[5%] z-10">
                 {list.textLists.map((text, i) => (
                   <p key={i} className="md:text-2xl text-xl font-medium">
-                    {text}
+                    {text} 
                   </p>
                 ))}
               </div>
